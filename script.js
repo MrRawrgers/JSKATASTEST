@@ -1,14 +1,6 @@
-// CHALLENGE 1
-
 const addition = (array) => {
     return array.reduce((a, b) => a + b, 0);
 }
-
-
-
-
-// CHALLENGE 2
-
 
 
 const equalStrings = (string1, string2) => {
@@ -20,13 +12,6 @@ const equalStrings = (string1, string2) => {
 }
 
 
-
-
-
-
-// CHALLENGE 3
-
-
 const initials = (name) => {
     let names = name.split(` `);
     let arr = [];
@@ -36,14 +21,6 @@ const initials = (name) => {
     }
     return arr.join(``);
 }
-
-
-
-
-
-
-// CHALLENGE 4
-
 
 
 const oddsEvens = (array) => {
@@ -59,14 +36,6 @@ const oddsEvens = (array) => {
     return `evens: [${evens}], odds: [${odds}]`;
 
 }
-
-
-
-
-
-// CHALLENGE 5
-
-
 
 
 const totalVandC = (string) => {
